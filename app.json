@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/swiper/swiper"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "八块腹肌的小程序",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "list":[{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "pages/images/bar/home.png",
+      "selectedIconPath": "pages/images/bar/home-2.png"
+    },{
+      "pagePath": "pages/swiper/swiper",
+      "text": "我的",
+      "iconPath": "pages/images/bar/my.png",
+      "selectedIconPath": "pages/images/bar/my_selected.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "debug": true
+}
